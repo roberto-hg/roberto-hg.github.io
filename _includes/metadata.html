@@ -131,6 +131,10 @@
         {%- capture link -%}https://stackoverflow.com/users/{{ site.stackoverflow_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
+    {%- if site.cv -%}
+        {%- capture link -%}{{ site.baseurl | prepend: site.url }}assets/pdf/cv.pdf{{ site.github_username }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
