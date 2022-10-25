@@ -357,7 +357,7 @@ footer.sticky-bottom {
 
 // Projects
 
-.projects {
+.projects_old {
   a {
     text-decoration: none;
 
@@ -386,6 +386,7 @@ footer.sticky-bottom {
 
   .grid-sizer, .grid-item {
     width: 250px;
+    // width: 800px;
     margin-bottom: 10px;
   }
 
@@ -399,6 +400,65 @@ footer.sticky-bottom {
   }
 }
 
+
+// Custom Projects
+
+.projects {
+  a {
+    text-decoration: none;
+
+    // &:hover {
+    //   .card-title {
+    //     color: var(--global-theme-color);
+    //   }
+    // }
+  }
+
+  .card {
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-sizer, .grid-item {
+    width: 250px;
+    // width: 300px;
+    margin-bottom: 10px;
+  }
+
+  h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+  .links {
+    a.btn {
+      color: var(--global-text-color);
+      border: 1px solid var(--global-text-color);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      &:hover {
+        color: var(--global-theme-color);
+        border-color: var(--global-theme-color);
+      }
+    }
+  }
+}
 
 // Publications
 
