@@ -22,7 +22,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year MS student in the Computer Science Department of Cornell University, advised by <a href='http://home.bharathh.info/'>Bharath Hariharan</a> and <a href='https://web.stanford.edu/~udell/'>Madeleine Udell</a>. I recieved my bachelor’s degree in Computer Science from Cornell University. My research interest lies in computer vision and machine learning. Currently, I am most interested in visual representation learning (self- and semi-supervised).
+I am a second-year MS student in the Computer Science Department of Cornell University, advised by <a href='http://home.bharathh.info/'>Bharath Hariharan</a> and <a href='https://web.stanford.edu/~udell/'>Madeleine Udell</a>. I received my bachelor’s degree in Computer Science from Cornell University. My research interest lies in computer vision and machine learning. Currently, I am most interested in visual representation learning (self- and semi-supervised).
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
