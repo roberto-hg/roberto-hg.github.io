@@ -19,9 +19,9 @@ icon: cornell_seal.svg  # the emoji used as the favicon (alternatively, provide 
 
 url: https://roberto-hg.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: May, 2022 # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-
+  
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
@@ -38,7 +38,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -115,11 +115,14 @@ disqus_shortname: # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  news:
-    defaults:
-      layout: post
+  # news:
+  #   defaults:
+  #     layout: post
+  #   output: true
+  #   permalink: /news/:path/
+  research:
     output: true
-    permalink: /news/:path/
+    permalink: /research/:path/
   projects:
     output: true
     permalink: /projects/:path/
@@ -277,7 +280,7 @@ enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
+enable_navbar_social:       true  # enables displaying social links in the
                                    # navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories

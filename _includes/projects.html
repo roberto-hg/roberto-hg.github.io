@@ -32,9 +32,9 @@
               {%- endif %}
               {%- if project.paper %}
                 {% if project.paper contains '://' -%}
-                <a href="{{ project.paper }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+                <a href="{{ project.paper }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
                 {%- else -%}
-                <a href="{{ project.paper | prepend: '/assets/pdf/projects/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
+                <a href="{{ project.paper | prepend: '/assets/pdf/projects/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">PDF</a>
                 {%- endif %}
               {%- endif %}
               {%- if project.supp %}
@@ -59,9 +59,9 @@
               {%- endif %}
               {%- if project.slides %}
                 {% if project.slides contains '://' -%}
-                <a href="{{ project.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+                <a href="{{ project.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Slides</a>
                 {%- else -%}
-                <a href="{{ project.slides | prepend: '/assets/pdf/projects/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
+                <a href="{{ project.slides | prepend: '/assets/pdf/projects/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">Slides</a>
                 {%- endif %}
               {%- endif %}
               {%- if project.website %}
