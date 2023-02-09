@@ -20,10 +20,10 @@ profile:
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-display_categories: [research, projects]
+display_categories: [preprints, projects]
 ---
 
-I am a MS student in the Computer Science Department at Cornell University, advised by <a href='http://home.bharathh.info/'>Bharath Hariharan</a> and <a href='https://web.stanford.edu/~udell/'>Madeleine Udell</a>. I received my bachelor’s degree in Computer Science from Cornell University. My research interest lies in computer vision and machine learning, being in the field for the last 5 years. Currently, I am most interested in visual representation learning (self- and semi-supervised).
+I am a graduating MS student in the Computer Science Department at Cornell University, advised by <a href='http://home.bharathh.info/'>Bharath Hariharan</a> and <a href='https://web.stanford.edu/~udell/'>Madeleine Udell</a>. I received my bachelor’s degree in Computer Science from Cornell University. My research interest lies in computer vision and machine learning, being in the field for the last 5 years. Currently, I am most interested in visual representation learning (self- and semi-supervised).
 
 <br />
 
@@ -37,7 +37,7 @@ title: projects
 # description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-# display_categories: [research, extra]
+# display_categories: [preprints, extra]
 horizontal: false
 --- -->
 
