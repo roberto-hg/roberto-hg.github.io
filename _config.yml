@@ -120,9 +120,9 @@ collections:
   #     layout: post
   #   output: true
   #   permalink: /news/:path/
-  preprints:
+  reserach:
     output: true
-    permalink: /preprints/:path/
+    permalink: /reserach/:path/
   projects:
     output: true
     permalink: /projects/:path/
