@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Roberto
 middle_name: 
 last_name: Halpin Gregorio
-email: rgh224@cornell.edu
+# email: rgh224@cornell.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Portfolio for Roberto Halpin-Gregorio | MS in CV & ML.
 footer_text: >
@@ -19,7 +19,7 @@ icon: cornell_seal.svg  # the emoji used as the favicon (alternatively, provide 
 
 url: https://roberto-hg.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
   
 # -----------------------------------------------------------------------------
@@ -120,12 +120,12 @@ collections:
   #     layout: post
   #   output: true
   #   permalink: /news/:path/
-  reserach:
-    output: true
-    permalink: /reserach/:path/
   projects:
     output: true
     permalink: /projects/:path/
+  other:
+    output: true
+    permalink: /other/:path/
 
 news_limit: 5
 

@@ -1,9 +1,8 @@
 ---
-layout: page
 title: Representation Learning Theory
-description: Extension of a previous representation learning theory paper, providing more general and robust bounds.
+description: Extension of a previous representation learning theory work, providing more general and robust bounds.
 img: assets/img/project_preview/repl-theory.png
 importance: 3
-category: research
+category: projects
 paper: RepLearn-Theory.pdf
 ---

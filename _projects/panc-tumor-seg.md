@@ -1,10 +1,9 @@
 ---
-layout: page
 title: Pancreas Tumor Segmentation
-description: Addresses the problem of the small amount of available medical data by using 2D slices of 3D voxels.
+description: Addresses the problem of the small amount of available medical data by using 2D-to-3D transfer learning.
 img: assets/img/project_preview/panc-seg.png
 importance: 5
-category: research
+category: projects
 paper: pancreas-tumor-seg.pdf
 code: https://github.com/roberto-hg/cv-project
 ---
