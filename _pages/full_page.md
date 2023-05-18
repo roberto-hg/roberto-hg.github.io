@@ -23,13 +23,13 @@ social: true  # includes social icons at the bottom of the page
 display_categories: [projects, teaching, other]
 ---
 
-I am a graduating MS student in the Computer Science Department at Cornell University, studying and performing research in Machine Learning and Computer Vision. I am proud to be advised by <a href='https://www.cs.cornell.edu/~bharathh/'>Bharath Hariharan</a> and <a href='https://web.stanford.edu/~udell/'>Madeleine Udell</a>. Prior to my MS, I completed my Bachelor of Science degree in Computer Science from Cornell University, specializing in Machine Learning and Computer Vision. 
+I am a graduating MS student in the Computer Science Department at Cornell University, studying and performing research in Machine Learning and Computer Vision. I am proud to be advised by <a href='https://www.cs.cornell.edu/~bharathh/'>Bharath Hariharan</a> and <a href='https://web.stanford.edu/~udell/'>Madeleine Udell</a>. Prior to my MS, I completed my Bachelor of Science degree in Computer Science from Cornell University, specializing in Machine Learning and Computer Vision.
 
-My research and engineering interests lie broadly in understanding, developing, and applying deep learning methods for computer vision and machine learning. Some research areas that I have been involved in throughout my graduate and undergraduate years are representation/self-supervised learning, data augmentation, deep generative models, missing data, amodal/panoptic image segmentation, 3D object detection and tracking, and parallel and distributed machine learning.
+My research and engineering interests lie broadly in understanding, developing, and applying deep learning methods for computer vision and machine learning. Some research areas that I have been involved in throughout my graduate and undergraduate years are representation/self-supervised learning, data augmentation, deep generative models, missing data, amodal/panoptic image segmentation, 3D object detection and tracking, and parallel + distributed machine learning.
 
-I am also proud of being a teaching assistant at the Computer Science Department at Cornell University for over three years. Teaching seven machine learning + computer vision upper-division and graduate semester-long courses. 
+I am also proud of being a teaching assistant at the Computer Science Department at Cornell University for over three years. Teaching seven machine learning + computer vision upper-division and graduate semester-long courses.
 
-Currently, I am looking for interesting machine learning (research) engineer opportunities!
+Currently, I am looking for machine learning (research) engineer opportunities!
 
 **Contact:** rgh224 [at] cornell.edu
 
